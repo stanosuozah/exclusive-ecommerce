@@ -5,7 +5,7 @@ import ViewButton from "../components/common/ViewButton";
 import Gucci from "../assets/images/Gucci.png";
 import RGB from "../assets/images/RGB.png";
 import SmallBookShelf from "../assets/images/SmallBookShelf.png";
-import TheNorthCoat from "../assets/images/TheNorthCoat.png";
+import TheNorthCoat from "../assets/images/Thenorthcoat.png";
 import RatingIcon from "../assets/icons/RatingIcon";
 const ThisMonth = () => {
 	return (
