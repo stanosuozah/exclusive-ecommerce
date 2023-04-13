@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Header from "../../components/layout/Header";
 import HomeInnerNav from "../../components/common/HomeInnerNav";
 import TitleCat from "../../components/common/TitleCat";
 import ProductCard from "../../components/common/ProductCard";
@@ -8,15 +7,10 @@ import RGB from "../../assets/images/RGB.png";
 import SmallBookShelf from "../../assets/images/SmallBookShelf.png";
 import TheNorthCoat from "../../assets/images/TheNorthCoat.png";
 import RatingIcon from "../../assets/icons/RatingIcon";
-import gamePad1 from "../../assets/images/gamepad1.png";
-import gamePad2 from "../../assets/images/gamepad2.png";
-import gamePad3 from "../../assets/images/gamepad3.png";
-import gamePad4 from "../../assets/images/gamepad4.png";
-import mainGamePad from "../../assets/images/maingamepad.png";
-import Footer from "../../components/layout/Footer";
+
 import SizeBox from "../../components/common/SizeBox";
 import ProductDetailsQuantity from "../../components/common/ProductDetailsQuantity";
-import LikeIcon from "../../assets/icons/LikeIcon";
+
 import ViewButton from "../../components/common/ViewButton";
 import FreeDeliveryIcon from "../../assets/icons/FreeDeliveryIcon";
 import ReturnDeliveryIcon from "../../assets/icons/ReturnDeliveryIcon";
@@ -136,7 +130,7 @@ const ProductDetails = () => {
 				<div className="related-items-products">
 					<ProductCard
 						name="The north coat"
-						image={TheNorthCoat}
+						image={Gucci}
 						price="260"
 						discountPrice="360"
 						review="65"
