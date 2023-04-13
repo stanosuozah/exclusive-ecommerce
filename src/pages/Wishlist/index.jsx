@@ -1,9 +1,10 @@
 import React from "react";
 import CartButton from "../../components/common/CartButton";
 import Gucci from "/Gucci.png";
+import TheNorthCoat from "/Thenorthcoat.png";
 import RGB from "/RGB.png";
 import SmallBookShelf from "/SmallBookShelf.png";
-import TheNorthCoat from "/Thenorthcoat.png";
+
 import ProductCard from "../../components/common/ProductCard";
 
 const Wishlist = ({ number }) => {

@@ -5,9 +5,7 @@ import ProductCard from "../../components/common/ProductCard";
 import Gucci from "/Gucci.png";
 import RGB from "/RGB.png";
 import SmallBookShelf from "/SmallBookShelf.png";
-import TheNorthCoat from "/TheNorthCoat.png";
 import RatingIcon from "../../assets/icons/RatingIcon";
-
 import SizeBox from "../../components/common/SizeBox";
 import ProductDetailsQuantity from "../../components/common/ProductDetailsQuantity";
 
