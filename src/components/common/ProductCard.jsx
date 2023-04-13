@@ -16,7 +16,7 @@ const ProductCard = ({
 }) => {
 	return (
 		<div className="product-card">
-			<div className="product-image-container" onClick={onClick}>
+			<div className="product-image-container">
 				<div className="product-visual">
 					{discount && (
 						<p
@@ -30,6 +30,7 @@ const ProductCard = ({
 						</p>
 					)}
 					<img
+						onClick={onClick}
 						className="product-image"
 						height={152}
 						width={172}
@@ -40,7 +41,7 @@ const ProductCard = ({
 						<span className="like-icon">
 							<LikeIcon />
 						</span>
-						<span className="seen-icon">
+						<span className="seen-icon" onClick={onClick}>
 							<SeenIcon />
 						</span>
 					</div>
