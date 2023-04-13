@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SendIcon from "../../assets/icons/SendIcon";
-import qrcode from "../../assets/images/Qrcode.png";
-import appStore from "../../assets/images/app-store.png";
-import playStore from "../../assets/images/play-store.png";
+import qrcode from "/Qrcode.png";
+import appStore from "/app-store.png";
+import playStore from "/play-store.png";
 import FacebookIcon from "../../assets/icons/FacebookIcon";
 import TwitterIcon from "../../assets/icons/TwitterIcon";
 import InstagramIcon from "../../assets/icons/InstagramIcon";

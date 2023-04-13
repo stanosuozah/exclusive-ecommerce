@@ -1,5 +1,5 @@
 import React from "react";
-import JBLImage from "../../assets/images/JBL.png";
+import JBLImage from "/JBL.png";
 
 const BuyNowBanner = () => {
 	return (

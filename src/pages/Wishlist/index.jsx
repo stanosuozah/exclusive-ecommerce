@@ -1,9 +1,9 @@
 import React from "react";
 import CartButton from "../../components/common/CartButton";
-import Gucci from "../../assets/images/gucci.png";
-import RGB from "../../assets/images/RGB.png";
-import SmallBookShelf from "../../assets/images/SmallBookShelf.png";
-import TheNorthCoat from "../../assets/images/TheNorthCoat.png";
+import Gucci from "/gucci.png";
+import RGB from "/RGB.png";
+import SmallBookShelf from "/SmallBookShelf.png";
+import TheNorthCoat from "/TheNorthCoat.png";
 import ProductCard from "../../components/common/ProductCard";
 
 const Wishlist = ({ number }) => {

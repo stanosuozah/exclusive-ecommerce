@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Banner from "../../components/common/Banner";
 import MainNav from "../../components/common/MainNav";
-import phoneCart from "../../assets/images/phone-cart.png";
+import phoneCart from "/phone-cart.png";
 import ViewButton from "../../components/common/ViewButton";
 import GoogleIcon from "../../assets/icons/GoogleIcon";
 import { Link, useNavigate, useOutletContext } from "react-router-dom";

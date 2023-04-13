@@ -4,7 +4,7 @@ import MainNav from "../../components/common/MainNav";
 import ViewButton from "../../components/common/ViewButton";
 import FormInput from "../../components/common/FormInput";
 import Footer from "../../components/layout/Footer";
-import phoneCart from "../../assets/images/phone-cart.png";
+import phoneCart from "/phone-cart.png";
 import useForm from "../../hooks/useForm";
 import { useNavigate, useOutletContext } from "react-router-dom";
 import { AppContext } from "../../context/AppContext";

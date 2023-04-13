@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import HomeInnerNav from "../../components/common/HomeInnerNav";
 import TitleCat from "../../components/common/TitleCat";
 import ProductCard from "../../components/common/ProductCard";
-import Gucci from "../../assets/images/Gucci.png";
-import RGB from "../../assets/images/RGB.png";
-import SmallBookShelf from "../../assets/images/SmallBookShelf.png";
-import TheNorthCoat from "../../assets/images/TheNorthCoat.png";
+import Gucci from "/Gucci.png";
+import RGB from "/RGB.png";
+import SmallBookShelf from "/SmallBookShelf.png";
+import TheNorthCoat from "/TheNorthCoat.png";
 import RatingIcon from "../../assets/icons/RatingIcon";
 
 import SizeBox from "../../components/common/SizeBox";
