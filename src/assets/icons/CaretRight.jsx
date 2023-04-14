@@ -3,6 +3,7 @@ import React from "react";
 const CaretRight = () => {
 	return (
 		<svg
+			className="caret"
 			width="8"
 			height="13"
 			viewBox="0 0 8 13"

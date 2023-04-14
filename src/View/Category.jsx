@@ -22,30 +22,48 @@ const Category = () => {
 				</div>
 			</div>
 			<div className="categories">
-				<CategoryCard
-					name="Phones"
-					image={<PhoneIcon className="cat-icon" />}
-				/>
-				<CategoryCard
-					name="Computers"
-					image={<ComputerIcon className="cat-icon" />}
-				/>
-				<CategoryCard
-					name="SmartWatch"
-					image={<SmartWatchIcon className="cat-icon" />}
-				/>
-				<CategoryCard
-					name="Camera"
-					image={<CameraIcon className="cat-icon" />}
-				/>
-				<CategoryCard
-					name="HeadPhones"
-					image={<HeadPhonesIcon className="cat-icon" />}
-				/>
-				<CategoryCard
-					name="Gaming"
-					image={<GamingIcon className="cat-icon" />}
-				/>
+				<div>
+					<CategoryCard
+						name="Phones"
+						image={<PhoneIcon className="cat-icon" />}
+					/>
+				</div>
+
+				<div>
+					<CategoryCard
+						name="Computers"
+						image={<ComputerIcon className="cat-icon" />}
+					/>
+				</div>
+
+				<div>
+					{" "}
+					<CategoryCard
+						name="SmartWatch"
+						image={<SmartWatchIcon className="cat-icon" />}
+					/>
+				</div>
+
+				<div>
+					<CategoryCard
+						name="Camera"
+						image={<CameraIcon className="cat-icon" />}
+					/>
+				</div>
+
+				<div>
+					<CategoryCard
+						name="HeadPhones"
+						image={<HeadPhonesIcon className="cat-icon" />}
+					/>
+				</div>
+
+				<div>
+					<CategoryCard
+						name="Gaming"
+						image={<GamingIcon className="cat-icon" />}
+					/>
+				</div>
 			</div>
 		</div>
 	);

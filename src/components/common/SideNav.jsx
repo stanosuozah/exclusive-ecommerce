@@ -5,7 +5,7 @@ import CaretRight from "../../assets/icons/CaretRight";
 const SideNav = () => {
 	return (
 		<div className="side-nav">
-			<ul>
+			<ul className="side-nav-ul">
 				<li className="woman-fashion-link">
 					<Link>Woman’s Fashion</Link>
 					<CaretRight />
