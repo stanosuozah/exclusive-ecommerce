@@ -32,8 +32,8 @@ const HomeCTAandNav = () => {
 					<CTABanner
 						cta="Shop Now"
 						image={iphone14}
-						subtitle="iPhone 11 Pro"
-						title="Up to 40% off Voucher"
+						subtitle="iPhone 14"
+						title="Get 10% of Sales"
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
