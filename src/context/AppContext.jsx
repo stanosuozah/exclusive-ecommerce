@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 
 export const AppContext = createContext();
 const AppContextProvider = ({ children }) => {
+	//Function for mobile menu
+
 	const [getUser, setGetUser] = useState(
 		JSON.parse(localStorage.getItem("user"))
 	); //geting user from localstorage

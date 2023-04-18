@@ -3,9 +3,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /* BANNER SECTION */
+body {
+	overflow: scroll;
+}
 * {
 	margin: 0;
 	padding: 0;
+}
+
+.mobile-menu-dropdown {
+	display: none;
 }
 .banner {
 	background-color: #000000;
@@ -2406,6 +2413,39 @@ PRODUCT DETAILS PAGE */
 		cursor: pointer;
 		color: black;
 	}
+	.mobile-menu {
+		display: block;
+		/* height: 16px;
+		width: 16px;
+	} */
+	}
+	.mobile-menu-dropdown {
+		display: block;
+		position: absolute;
+		top: 160px;
+		right: 15px;
+		background: rgba(0, 0, 0);
+		width: 120px;
+		padding: 20px;
+		border-radius: 4px;
+	}
+	.mobile-menu-dropdown > ul {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+	.mobile-menu-link {
+		list-style: none;
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 24px;
+		text-align: center;
+		z-index: 222;
+		color: white;
+	}
+
 	.top-menu-link {
 		text-decoration: none;
 		display: none;
