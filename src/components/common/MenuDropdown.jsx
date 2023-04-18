@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const MenuDropdown = () => {
 	const { getUser } = useContext(AppContext);
-	const user = getUser.name;
+	const user = getUser?.name;
 
 	return (
 		<>
