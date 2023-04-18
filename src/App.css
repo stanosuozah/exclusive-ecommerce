@@ -11,7 +11,7 @@ body {
 	padding: 0;
 }
 
-.mobile-menu-dropdown {
+.mobile-hamburger {
 	display: none;
 }
 .banner {
@@ -2413,11 +2413,8 @@ PRODUCT DETAILS PAGE */
 		cursor: pointer;
 		color: black;
 	}
-	.mobile-menu {
+	.mobile-hamburger {
 		display: block;
-		/* height: 16px;
-		width: 16px;
-	} */
 	}
 	.mobile-menu-dropdown {
 		display: block;

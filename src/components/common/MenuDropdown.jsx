@@ -3,7 +3,7 @@ import { AppContext } from "../../context/AppContext";
 import { Link } from "react-router-dom";
 
 const MenuDropdown = () => {
-	const { getUser } = useContext(AppContext);
+	const { getUser, setRefreshPage } = useContext(AppContext);
 	const user = getUser?.name;
 
 	return (
@@ -17,7 +17,7 @@ const MenuDropdown = () => {
 						<li>About</li>
 					</Link>
 					{!user && (
-						<Link to={"/signup"}>
+						<Link to={"/signup"} className="mobile-menu-link">
 							<li>Sign Up</li>
 						</Link>
 					)}

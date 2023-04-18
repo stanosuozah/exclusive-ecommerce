@@ -9,8 +9,9 @@ import { AppContext } from "../../context/AppContext";
 import MenuDropdown from "./MenuDropdown";
 
 const MainNav = ({ display, setDisplay }) => {
-	const { cartItem, getUser } = useContext(AppContext);
-	const [mobileDisplay, setMobileDisplay] = useState(false);
+	const { cartItem, getUser, mobileDisplay, setMobileDisplay } =
+		useContext(AppContext);
+
 	//SEARCH
 	const [query, setQuery] = useState("");
 	const navigate = useNavigate();
@@ -57,24 +58,25 @@ const MainNav = ({ display, setDisplay }) => {
 				{getUser && <AccountIcon onClick={() => setDisplay(!display)} />}
 
 				{/* Hamburger menu */}
-				<svg
-					onClick={() => setMobileDisplay(!mobileDisplay)}
-					className="mobile-menu"
-					width={50}
-					height={50}
-					xmlns="http://www.w3.org/2000/svg"
-					fill="none"
-					viewBox="0 0 24 24"
-					strokeWidth="1.5"
-					stroke="currentColor"
-					class="w-6 h-6"
-				>
-					<path
-						strokeLinecap="round"
-						strokeLinejoin="round"
-						d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-					/>
-				</svg>
+				<div className="mobile-hamburger">
+					<svg
+						onClick={() => setMobileDisplay(!mobileDisplay)}
+						width={50}
+						height={50}
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						strokeWidth="1.5"
+						stroke="currentColor"
+						class="w-6 h-6"
+					>
+						<path
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+						/>
+					</svg>
+				</div>
 			</div>
 
 			{mobileDisplay && <MenuDropdown />}
